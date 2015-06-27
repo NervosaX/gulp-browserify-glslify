@@ -1,0 +1,25 @@
+{
+  "name": "browserify_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wzrd index.js -- -t glslify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.7.12",
+    "browserify": "^10.2.4",
+    "glslify": "^2.2.1",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "glslify": "^2.2.1",
+    "rimraf": "^2.4.0"
+  }
+}
